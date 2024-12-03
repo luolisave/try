@@ -1,0 +1,19 @@
+{
+  "name": "try-node23-typescript",
+  "version": "1.0.0",
+  "description": "try nodejs23 with typescript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --experimental-test-coverage --test",
+    "test:ts": "node --experimental-strip-types --experimental-test-coverage --test **/*.test.ts",
+    "test-with-reporter": "node --experimental-strip-types --experimental-test-coverage --test-reporter --test",
+    "start": "node --experimental-strip-types src/index.ts",
+    "start:watch": "node --watch --experimental-strip-types src/index.ts"
+  },
+  "author": "Li Luo",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.1"
+  }
+}
