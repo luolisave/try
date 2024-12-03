@@ -17,5 +17,6 @@ export function sum(a: number, b: number): number {
 }
 
 console.log("Hi, ", abc);
+console.log("Hi, process.env.SECRET_VALUE = ", process.env.SECRET_VALUE);
 console.log("Random String =  ", randomStr());
 console.log("sum(1,2) =  ", sum(1,2));
