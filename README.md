@@ -1,2 +1,2 @@
 # try
-I try JavaScript new features here.
+I try JavaScript features here.
